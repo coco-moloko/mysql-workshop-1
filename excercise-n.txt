@@ -1,4 +1,4 @@
-Exercise 1
+Exercise 1:
 
 Used:
 mysql-ctl start
@@ -7,7 +7,7 @@ mysql -u coco_moloko
 Results:
 I am logged onto the MySQL database through my cloud 9 profile
 
-Exercise 2
+Exercise 2:
 
 Used:
 CREATE DATABASE decodemtl_test;
@@ -35,3 +35,24 @@ Result:
 6 rows in set (0.00 sec)
 
 decodemtl_test is removed from Databases
+
+Exercise 4:
+
+Used:
+SHOW DATABASES;
+
+Result:
++-----------------------+
+| Database              |
++-----------------------+
+| information_schema    |
+| c9                    |
+| decodemtl_addressbook |
+| mysql                 |
+| performance_schema    |
+| phpmyadmin            |
++-----------------------+
+6 rows in set (0.00 sec)
+
+Exercise 5:
+
