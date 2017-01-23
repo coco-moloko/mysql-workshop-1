@@ -164,3 +164,10 @@ Result:
 | contentLineFive  | varchar(255)                    | YES  |     | NULL    |                |
 +------------------+---------------------------------+------+-----+---------+----------------+
 12 rows in set (0.00 sec)
+
+Exercise 9:
+
+CREATE DATABASE ChickenBarn;
+USE ChickenBarn;
+
+ALTER TABLE ChickenBarn ADD (type ENUM("Rooster","Chicken","Chick-Male","Chick-Female"), birthdate DATETIME, deathdate DATETIME);
