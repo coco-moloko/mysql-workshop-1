@@ -1,4 +1,19 @@
-//Exercise 1
+Exercise 1
 
+Used:
 mysql-ctl start
 mysql -u coco_moloko
+
+Results:
+I am logged onto the MySQL database through my cloud 9 profile
+
+Exercise 2
+
+Used:
+CREATE DATABASE decodemtl_test;
+CREATE DATABASE decodemtl_test;
+
+Results:
+Query OK, 1 row affected (0.00 sec) - for each imput
+
+Exercise 3:
