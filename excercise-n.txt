@@ -56,3 +56,24 @@ Result:
 
 Exercise 5:
 
+Used:
+USE decodemtl_addressbook;
+CREATE TABLE Account (id int auto_increment primary key); 
+CREATE TABLE AddressBook (id int auto_increment primary key); 
+CREATE TABLE Entry (id int auto_increment primary key); 
+CREATE TABLE Test (id int auto_increment primary key); 
+
+Result:
+
+SHOW TABLES;
++---------------------------------+
+| Tables_in_decodemtl_addressbook |
++---------------------------------+
+| Account                         |
+| AddressBook                     |
+| Entry                           |
+| Test                            |
++---------------------------------+
+4 rows in set (0.00 sec)
+
+Exercise 6:
